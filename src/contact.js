@@ -1,0 +1,12 @@
+import React from 'react';
+import contact from './img/contact.png'
+
+class Contact extends React.Component {
+  render() {
+    return (
+      <button className="contactbutton" href="www.google.com"><img src={contact} alt="contact"/></button>
+    )
+  }
+}
+
+export default Contact;
