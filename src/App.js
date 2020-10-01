@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
     <Cursor />
-    <Workbutton />
+    <Workbutton onclick="workButtonClicked()"/>
     <About />
     <Contact />
     <ParallaxMousemove containerStyle={style.one} fullHeight={true}>
@@ -40,7 +40,7 @@ function App() {
             damping: 30
           }
         }}>
-        <img src={require('./img/background.jpg')} alt="Parallax Layer"></img>
+        <img src={require('./img/background.png')} alt="Parallax Layer"></img>
       </ParallaxMousemove.Layer>
     </ParallaxMousemove>
     </div>
